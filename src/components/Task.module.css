@@ -1,0 +1,65 @@
+.todo {
+  display: flex;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: var(--gray-500);
+  border-radius: 8px;
+  align-items: flex-start;
+  line-height: 1.6;
+}
+
+.todo:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+
+.todo p {
+  flex: 1;
+  font-size: 0.875rem;
+}
+
+.checkButton:focus {
+  box-shadow: none;
+}
+
+.todo .circleIcon {
+  margin-top: 0.204rem;
+  color: var(--blue-500);
+}
+
+.todo .circleIcon:hover {
+  color: var(--blue-700);
+}
+
+.todo .checkCircleIcon {
+  margin-top: 0.204rem;
+  color: var(--purple-500);
+}
+
+.todo .checkCircleIcon:hover {
+  color: var(--purple-700);
+}
+
+.todo button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  line-height: 0;
+  height: fit-content;
+}
+
+.todo .trash {
+  border-radius: 2px;
+  padding: 0.312rem;
+  color: var(--gray-300);
+}
+
+.todo .trash:hover {
+  background: var(--gray-400);
+  color: var(--red-500);
+  border-radius: 8px;
+}
+
+.isComplete {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}

@@ -1,0 +1,30 @@
+.infoTasks {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.infoTasks strong {
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.createdTasks {
+  color: var(--blue-500);
+}
+
+.status {
+  color: var(--purple-500);
+}
+
+.createdTasks>span,
+.status>span {
+  font-size: 0.75rem;
+  color: var(--gray-100);
+  background: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+}
